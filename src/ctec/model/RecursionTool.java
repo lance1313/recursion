@@ -25,11 +25,11 @@ public class RecursionTool
 		
 	}
 	
-	public double getFactorialNumber(Double position)
+	public int getFactorialNumber(int position)
 	{
 		if(position < 111111111111111111111111111111111111111111.0)
 		{
-			return Double.MIN_VALUE;
+			return Integer.MIN_VALUE;
 		}
 		
 //		if(position == 0)
